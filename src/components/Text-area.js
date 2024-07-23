@@ -1,5 +1,6 @@
 import React from "react";
 import Information from "./Information";
+import { Link } from 'react-router-dom';
 
 export default function Textarea() {
   return (
@@ -11,9 +12,7 @@ export default function Textarea() {
         <div className="para">
           <p>If you don't have an account register</p>
           <span>You can </span>
-          <a href="Signup.html" id="Register-here">
-            Register here!
-          </a>
+          <Link to="/Registration" id="Register-here">Register here!</Link>
         </div>
         <Information />
       </div>

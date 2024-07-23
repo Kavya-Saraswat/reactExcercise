@@ -1,5 +1,6 @@
 import React from 'react';
-import SignupInformation from './Signup-information';
+import Information from './Information';
+import { Link } from 'react-router-dom';
 
 
 export default function Signuptextarea() {
@@ -11,9 +12,10 @@ export default function Signuptextarea() {
             </div>
             <div class="para">
                 <p>If you have an account register</p>
-                <span>You can </span><a href="Signin.html" id="Register-here">Login here!</a>
+                <span>You can </span>
+                <Link to="/" id="Register-here">Login here!</Link>
             </div>
-            <SignupInformation/>
+            <Information/>
         </div>
     </section>
   )
