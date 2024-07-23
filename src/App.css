@@ -1,38 +1,134 @@
-.App {
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing:border-box;
+}
+.main{
+  display: flex;
+ 
+  
+  font-family: 'Poppins', sans-serif;
+ 
+  
+}
+.section1{
+  width: 852px;
+  height: 100vh;
+  background-image: url('./components/Bg.png');
+  
+}
+.logo{
+    height: 30px;
+    width: 150px;
+    margin-left: 42px ;
+    margin-top: 31px;
+    font-size: 20px;
+    font-weight:bold;
+    
+}
+.Logininfo{
+  width: 300px;
+  height: 350px;
+  margin-left: 85px;
+  margin-top: 90px;
+}
+
+.Signin{
+  font-size: 20px;
+}
+.para{
+  margin-top: 20px;
+}
+
+#Register-here{
+color:red;
+}
+
+
+
+.form{
+  margin-top: 40px;
+}
+
+.Login{
+  margin-top: 40px;
+}
+.Socialinfo p{
+  margin-top: 30px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Socialinfo{
+  padding-top: 30px;
+  padding-left: 80px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Socialinfo div{
+  margin-top: 30px;
+  text-align: center;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#email,#password, #username{
+  margin-top: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 300px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+}
+#email{
+    border-color: red;
+}
+#password,#username{
+    border-color: black;
+}
+.pass,.user, .confirm-pass{
+    margin-top: 20px;
+}
+
+
+
+.remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.Login{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 20px;
+  background-color: red;
+
+}
+#Login{
+  background-color: red;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+#fb,#apple,#google{
+  font-size: 25px;
+  margin-left: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.Register{
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  height: 30px;
+  border-radius: 20px;
+  background-color:red ;
+  margin-top:40px;
+}
+#Register{
+  background-color: red;
+  border: none;  
+}
+
+@media (max-width: 768px){
+  #section2{
+      flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+  .section1{
+      display: None;
   }
 }
