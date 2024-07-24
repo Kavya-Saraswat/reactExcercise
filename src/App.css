@@ -30,7 +30,7 @@
   width: 300px;
   height: 350px;
   margin-left: 85px;
-  margin-top: 90px;
+  margin-top: 40px;
 }
 
 .Signin{
@@ -47,7 +47,7 @@ color:red;
 
 
 .form{
-  margin-top: 40px;
+  margin-top: 22px;
 }
 
 .Login{
@@ -65,8 +65,8 @@ color:red;
   margin-top: 30px;
   text-align: center;
 }
-#email,#password, #username{
-  margin-top: 10px;
+#email,#password, #username,#pasword{
+  margin-top: 5px;
   border: none;
   border-bottom: 1px solid #ccc;
   width: 300px;
@@ -75,7 +75,7 @@ color:red;
 #email{
     border-color: red;
 }
-#password,#username{
+#password,#username,#pasword{
     border-color: black;
 }
 .pass,.user, .confirm-pass{
@@ -117,7 +117,7 @@ color:red;
   height: 30px;
   border-radius: 20px;
   background-color:red ;
-  margin-top:40px;
+  margin-top:30px;
 }
 #Register{
   background-color: red;

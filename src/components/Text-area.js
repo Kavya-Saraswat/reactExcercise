@@ -16,14 +16,6 @@ export default function Textarea() {
         </div>
         <Information />
       </div>
-      <div className="Socialinfo">
-        <p>or continue with</p>
-        <div>
-          <i className="fa fa-facebook-square" id="fb"></i>
-          <i className="fa fa-apple" id="apple"></i>
-          <i className="fa fa-google" id="google"></i>
-        </div>
-      </div>
     </section>
   );
 }
