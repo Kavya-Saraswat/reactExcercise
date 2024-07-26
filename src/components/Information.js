@@ -31,8 +31,9 @@ export default function Information() {
                     onChange={formik.handleChange}
                     value={formik.values.email}
                 />
-
+                <div className="valid">
                 {formik.errors.email ? <div>{formik.errors.email}</div>:null}
+                </div>
             </div>
 
             <div className="pass">
@@ -45,7 +46,9 @@ export default function Information() {
                     onChange={formik.handleChange}
                     value={formik.values.password}
                 />
+                <div className="valid">
                 {formik.errors.password ? <div>{formik.errors.password}</div>:null}
+                </div>
             </div>
 
             <div className="remember-forgot">

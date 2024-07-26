@@ -124,6 +124,11 @@ color:red;
   border: none;  
 }
 
+.valid{
+  font-size: 11px;
+  color: red;
+}
+
 @media (max-width: 768px){
   #section2{
       flex-direction: column;
