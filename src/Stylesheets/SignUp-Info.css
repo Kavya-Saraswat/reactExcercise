@@ -1,0 +1,62 @@
+.form{
+    margin-top: 22px;
+  }
+  
+  .Login{
+    margin-top: 40px;
+  }
+  .Socialinfo p{
+    margin-top: 30px;
+    text-align: center;
+  }
+  .Socialinfo{
+    padding-top: 30px;
+    padding-left: 80px;
+  }
+  .Socialinfo div{
+    margin-top: 30px;
+    text-align: center;
+  }
+  #email,#password, #username,#pasword{
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    display: flex;
+  }
+  #email{
+      border-color: red;
+  }
+  #password,#username,#pasword{
+      border-color: black;
+  }
+  .pass,.user, .confirm-pass{
+      margin-top: 20px;
+  }
+  .valid{
+    font-size: 11px;
+    color: red;
+  }
+  .Register{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 20px;
+    background-color:red ;
+    margin-top:30px;
+  }
+  #Register{
+    background-color: red;
+    border: none;  
+  }
+  
+  @media (max-width: 768px){
+    #section2{
+        flex-direction: column;
+    }
+    .section1{
+        display: None;
+    }
+}
+  

@@ -1,9 +1,10 @@
 import React from "react";
 import {useFormik} from 'formik';
-import { signInSchema } from "./Mik";
+import { signInSchema } from "./Formik1";
+import '../../Stylesheets/SignUp-Info.css';
 
 
-export default function SignupInformation() {
+export default function SignUpInformation() {
 
     const formik= useFormik({
      initialValues:{

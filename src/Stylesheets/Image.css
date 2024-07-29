@@ -1,0 +1,31 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  }
+  
+.main{
+    display: flex;
+    font-family: 'Poppins', sans-serif; 
+  }
+  
+.section1{
+    width: 852px;
+    height: 100vh;
+    background-image: url('../components/Sub-Pages/Bg.png');
+    
+  }
+.logo{
+      height: 30px;
+      width: 150px;
+      margin-left: 42px ;
+      margin-top: 31px;
+      font-size: 20px;
+      font-weight:bold;
+      
+  }
+
+  .valid{
+    font-size: 11px;
+    color: red;
+  }

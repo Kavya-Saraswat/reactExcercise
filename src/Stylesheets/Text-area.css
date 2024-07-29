@@ -1,0 +1,17 @@
+ .Logininfo{
+    width: 300px;
+    height: 350px;
+    margin-left: 85px;
+    margin-top: 40px;
+  }
+  
+  .Signin{
+    font-size: 20px;
+  }
+  .para{
+    margin-top: 20px;
+  }
+  
+  #Register-here{
+  color:red;
+  }

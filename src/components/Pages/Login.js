@@ -1,6 +1,6 @@
 import React from 'react';
-import Imagearea from './Image-area.js';
-import Textarea from './Text-area.js';
+import Imagearea from '../Sub-Pages/Image-area';
+import Textarea from '../Sub-Pages/Text-area';
 
 export default function Login() {
    return(

@@ -1,6 +1,7 @@
 import React from "react";
 import Information from "./Information";
 import { Link } from 'react-router-dom';
+import '../../Stylesheets/Text-area.css'; 
 
 export default function Textarea() {
   return (

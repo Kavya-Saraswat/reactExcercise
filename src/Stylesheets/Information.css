@@ -1,0 +1,53 @@
+ .form{
+    margin-top: 22px;
+  }
+  
+  .Login{
+    margin-top: 40px;
+  }
+
+  #email,#password{
+    margin-top: 5px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    width: 300px;
+    display: flex;
+  }
+  #email{
+      border-color: red;
+  }
+  #password{
+      border-color: black;
+  }
+  .pass{
+      margin-top: 20px;
+  }
+
+  .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+  
+  .Login{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    height: 30px;
+    border-radius: 20px;
+    background-color: red;
+  
+  }
+ #Login{
+    background-color: red;
+    border: none;
+  }
+
+ .valid{
+    font-size: 11px;
+    color: red;
+  }
+
+  
+

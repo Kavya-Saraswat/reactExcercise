@@ -1,6 +1,7 @@
 import React from "react";
 import { useFormik } from 'formik';
-import { signUpSchema } from "./formik";
+import { signUpSchema } from "./Formik";
+import "../../Stylesheets/Information.css";
 
 export default function Information() {
     

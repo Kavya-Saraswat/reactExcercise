@@ -1,13 +1,13 @@
 import React from 'react';
-import Imagearea from './Image-area.js';
-import Signuptextarea from './Signup-textarea.js';
+import Imagearea from '../Sub-Pages/Image-area.js';
+import SignUpTextarea from '../Sub-Pages/SignUp-Textarea.js';
 
 
 export default function Registration() {
    return(
     <div className='main'>
     <Imagearea />
-    <Signuptextarea />
+    <SignUpTextarea />
     </div>
    );
 }

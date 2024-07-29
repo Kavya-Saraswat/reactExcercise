@@ -1,8 +1,7 @@
 import React from "react";
-import "./App.css";
 import { Routes, Route, useParams } from "react-router-dom";
-import Login from "./components/Login";
-import Registration from "./components/Registration";
+import Login from "./components/Pages/Login";
+import Registration from "./components/Pages/Registration";
 
 
 function Params() {

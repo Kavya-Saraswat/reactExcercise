@@ -1,8 +1,9 @@
 import React from "react";
-import SignupInformation from "./Signup-information";
+import SignUpInformation from './SignUp-Information';
 import { Link } from "react-router-dom";
+import "../../Stylesheets/SignUp-Textarea.css";
 
-export default function Signuptextarea() {
+export default function SignUpTextarea() {
   return (
     <section id="section2">
       <div class="Logininfo">
@@ -16,7 +17,7 @@ export default function Signuptextarea() {
             Login here!
           </Link>
         </div>
-        <SignupInformation />
+        <SignUpInformation />
       </div>
     </section>
   );

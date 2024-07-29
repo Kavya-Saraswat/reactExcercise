@@ -1,4 +1,5 @@
 import React from 'react'
+import "../../Stylesheets/Image.css";
 
 export default function Imagearea() {
   return (
